@@ -3,6 +3,7 @@ name: Build e Push Docker (versão automática)
 on:
   push:
     branches:
+      - master
       - main
     tags:
       - 'v*.*.*'    # se alguém fizer git tag v1.2.3
